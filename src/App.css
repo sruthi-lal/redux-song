@@ -57,3 +57,18 @@
     padding-top: 5px;
     margin: 0;
 }
+
+.song-title {
+  text-align: center;
+  width: 45% !important;
+  margin: 7px auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.song-title span{
+    color: #ff0a21;
+    padding-left: 7px;
+}
