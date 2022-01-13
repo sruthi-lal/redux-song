@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.song {
+  border: 1px solid #31bcd8;
+    
+  width: 45% !important;
+  margin: 7px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.song-space{
+  padding-top: 67px;
+}
+.lft{
+  float: right;
+}
+
+.song-space p{
+    float: left;
+    padding-top: 5px;
+    margin: 0;
+}

@@ -4,13 +4,13 @@
           renderList(){
               return this.props.song.map((s) =>{
                   return(
-                      <div key={s.title}>
-                          <div>
-                              <button>Select</button>
+                      <div className='row' key={s.title}>
+                           <div className = "col-12 song">
+                            <p>{s.title}</p>
+                              <button className='btn btn-info lft'>Select</button>
                           </div>
-                          <div>
-                              {s.title}
-                          </div>
+                           
+                         
 
                       </div>
                   )
@@ -21,7 +21,7 @@
      render() {
            console.log(this.props)
          return (
-             <div>
+             <div className='container song-space'>
                  {this.renderList()}
              </div>
          )
